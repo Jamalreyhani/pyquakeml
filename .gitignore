@@ -1,0 +1,4 @@
+*.pyc
+build/
+dist/
+pyquakeml.egg-info
