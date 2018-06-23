@@ -649,7 +649,4 @@ class EventParameters(Object):
 
 class QuakeML(Object):
     xmltagname = 'quakeml'
-    xmlns = String.T(
-        xmlstyle='attribute', xmltagname='xmlns',
-        default="http://quakeml.org/xmlns/quakeml/1.2")
     event_parameters = EventParameters.T(optional=True)
